@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "示例产品1",
+      "description": "这是第一个示例产品的描述",
+      "imageUrl": "https://via.placeholder.com/300"
+    },
+    {
+      "id": 2,
+      "title": "示例产品2",
+      "description": "这是第二个示例产品的描述",
+      "imageUrl": "https://via.placeholder.com/300"
+    }
+  ],
+  "registrations": []
+}

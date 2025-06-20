@@ -1,0 +1,93 @@
+<!-- 生成方式：根据网站视觉分析和Tailwind CSS最佳实践手工编码实现 -->
+<!-- 限制：部分动态功能和精确像素级尺寸可能需配合JavaScript和具体设计规范补充 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitline Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; line-height: 1.6; }
+        .promo-badge { background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <img src="/logo.png" alt="Logo" class="h-8">
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Products</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Business Opportunity</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Grid -->
+    <main class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-gray-800 mb-8">Featured Products</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Product Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="relative">
+                    <img src="/product1.jpg" alt="Product" class="w-full h-48 object-cover">
+                    <span class="promo-badge text-white px-3 py-1 text-sm font-medium absolute top-2 right-2 rounded-full">-15%</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Active Start Packet</h3>
+                    <div class="flex items-center space-x-2 mb-3">
+                        <span class="text-blue-600 font-bold text-xl">HK$ 690.00</span>
+                        <span class="text-gray-400 line-through">HK$ 810.00</span>
+                    </div>
+                    <button onclick="window.location.href='ui-code-2025-06-20T03-35-56-698Z.html'" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Repeat product cards as needed -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Customer Service</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white">Shipping Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">About Us</a></li>
+                        <li><a href="#" class="hover:text-white">Careers</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-sm">&copy; 2024 PM-International. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- 关键特性说明：
+1. 响应式设计：使用Tailwind的响应式断点系统（md:、lg:）实现网格布局适配不同设备
+2. 视觉细节：精确还原价格标签的梯度背景、产品卡片阴影、悬停效果和排版间距
+3. 配色方案：采用网站原版的蓝色主色调（#2563eb），搭配灰色系文字和白色背景
+4. 排版规范：使用Poppins字体，层级分明的标题样式，符合原站设计规范
+5. 语义化结构：合理使用nav、main、footer等语义标签增强可访问性
+-->
